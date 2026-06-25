@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Jekyll — Privacy Policy</title>
+  <meta name="description" content="Privacy policy for Dr. Jekyll, a personal lab result monitoring app for cancer patients." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --teal: #0F6E56;
+      --teal-light: #E1F5EE;
+      --text: #1a1a18;
+      --text-muted: #6b6b67;
+      --text-faint: #a0a09b;
+      --border: rgba(0,0,0,0.10);
+      --bg: #faf9f7;
+      --surface: #ffffff;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ── Header ── */
+    .site-header {
+      padding: 1.25rem 0;
+      border-bottom: 0.5px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-header a {
+      font-family: 'Lora', serif;
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .site-header a span { color: var(--teal); }
+
+    .site-header .back {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+
+    .site-header .back:hover { color: var(--teal); }
+
+    /* ── Hero ── */
+    .hero {
+      padding: 2.5rem 0 2rem;
+      border-bottom: 0.5px solid var(--border);
+    }
+
+    .app-tag {
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--teal);
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero h1 {
+      font-family: 'Lora', serif;
+      font-size: 26px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero .updated {
+      font-size: 13px;
+      color: var(--text-faint);
+      font-style: italic;
+    }
+
+    /* ── Short version callout ── */
+    .callout {
+      background: var(--teal-light);
+      border-left: 3px solid var(--teal);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin: 1.75rem 0;
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .callout strong {
+      display: block;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 6px;
+    }
+
+    /* ── Sections ── */
+    .section {
+      padding: 1.75rem 0;
+      border-bottom: 0.5px solid var(--border);
+    }
+
+    .section:last-of-type { border-bottom: none; }
+
+    .section h2 {
+      font-family: 'Lora', serif;
+      font-size: 17px;
+      font-weight: 500;
+      margin-bottom: 0.75rem;
+      color: var(--text);
+    }
+
+    .section p {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin-bottom: 0.75rem;
+    }
+
+    .section p:last-child { margin-bottom: 0; }
+
+    .section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0 0.75rem;
+    }
+
+    .section ul li {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.65;
+      padding: 0.3rem 0 0.3rem 1.25rem;
+      position: relative;
+    }
+
+    .section ul li::before {
+      content: '–';
+      position: absolute;
+      left: 0;
+      color: var(--teal);
+    }
+
+    .section strong { color: var(--text); }
+
+    .settings-path {
+      display: inline-block;
+      background: var(--surface);
+      border: 0.5px solid var(--border);
+      border-radius: 6px;
+      padding: 2px 8px;
+      font-size: 12.5px;
+      font-family: 'DM Sans', sans-serif;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* ── Footer ── */
+    footer {
+      padding: 1.5rem 0 2rem;
+      text-align: center;
+      font-size: 11.5px;
+      color: var(--text-faint);
+    }
+
+    footer a {
+      color: var(--text-faint);
+      text-decoration: none;
+    }
+
+    footer a:hover { color: var(--teal); }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <header class="site-header">
+      <a href="/">Rugby<span>Hubby</span></a>
+      <a class="back" href="/">← Back to home</a>
+    </header>
+
+    <div class="hero">
+      <p class="app-tag">Dr. Jekyll</p>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: June 24, 2026</p>
+    </div>
+
+    <div class="callout">
+      <strong>The short version</strong>
+      Dr. Jekyll does not collect, store, transmit, or share any of your personal health information. Ever. Your data stays on your device.
+    </div>
+
+    <section class="section">
+      <h2>What Dr. Jekyll Does</h2>
+      <p>Dr. Jekyll is a personal lab result monitoring app for cancer patients. It reads lab results from Apple Health on your iPhone, displays them as trend charts over time, and helps you prepare better questions for your care team.</p>
+    </section>
+
+    <section class="section">
+      <h2>What We Collect</h2>
+      <p><strong>Nothing.</strong></p>
+      <p>Dr. Jekyll does not have a backend server, a database, an account system, analytics, crash reporting, or any network connection of its own. There is no company server that your data touches.</p>
+      <p>The only information Dr. Jekyll stores on your device is your app preferences — which lab tests you have chosen to monitor and your date range settings. This is stored locally using Apple's SwiftData framework and never leaves your device.</p>
+    </section>
+
+    <section class="section">
+      <h2>Your Health Data</h2>
+      <p>Dr. Jekyll reads lab results from Apple Health using Apple's HealthKit framework. This requires your explicit permission, which you grant through Apple's standard health authorization prompt.</p>
+      <ul>
+        <li>Dr. Jekyll <strong>reads</strong> specific lab result types that you choose to monitor.</li>
+        <li>Dr. Jekyll <strong>never writes</strong> to Apple Health.</li>
+        <li>Dr. Jekyll <strong>never stores</strong> your lab values on disk. Results are loaded into memory when you view them and discarded when you leave the screen.</li>
+        <li>Dr. Jekyll <strong>never transmits</strong> your health data anywhere. No lab values, no dates, no identifiers leave your device through Dr. Jekyll.</li>
+      </ul>
+      <p>You can revoke Dr. Jekyll's access to Apple Health at any time:</p>
+      <span class="settings-path">Settings → Privacy &amp; Security → Health → Dr. Jekyll</span>
+    </section>
+
+    <section class="section">
+      <h2>Ask Claude Feature</h2>
+      <p>Dr. Jekyll includes a feature that helps you build a prompt to bring into a conversation with Claude AI (made by Anthropic). This feature:</p>
+      <ul>
+        <li>Builds a text prompt on your device using your selected lab results</li>
+        <li>Shows you the full prompt before anything happens</li>
+        <li>Copies the prompt to your clipboard when you choose to proceed</li>
+        <li>Opens the Claude app or website, where you paste the prompt yourself</li>
+      </ul>
+      <p>Dr. Jekyll itself never sends any data to Claude or Anthropic. The prompt only leaves your device when you choose to paste and send it in the Claude app. You are in full control of what you share.</p>
+    </section>
+
+    <section class="section">
+      <h2>Face ID</h2>
+      <p>Dr. Jekyll uses Face ID (or your device passcode as a fallback) to prevent others from viewing your health data if they pick up your phone. Face ID authentication is handled entirely by Apple's LocalAuthentication framework. Dr. Jekyll never sees or stores your biometric data.</p>
+    </section>
+
+    <section class="section">
+      <h2>Demo Mode</h2>
+      <p>Dr. Jekyll includes a Demo Mode that displays sample lab data for a fictional Multiple Myeloma patient. Demo Mode does not use or display any of your real health data. It is designed to let you explore the app before connecting your health records.</p>
+    </section>
+
+    <section class="section">
+      <h2>Children's Privacy</h2>
+      <p>Dr. Jekyll is not directed at children under 13 and does not knowingly collect information from children.</p>
+    </section>
+
+    <section class="section">
+      <h2>Changes to This Policy</h2>
+      <p>If this policy changes materially, we will update the date at the top of this page. Since Dr. Jekyll collects no data, changes are expected to be minimal.</p>
+    </section>
+
+    <section class="section">
+      <h2>Contact</h2>
+      <p>Dr. Jekyll is an independent app built by Bill McHugh.</p>
+      <p>Questions about this privacy policy: <a href="mailto:contact@rugbyhubby.com" style="color: var(--teal);">contact@rugbyhubby.com</a><br>
+      Website: <a href="https://rugbyhubby.com" style="color: var(--teal);">rugbyhubby.com</a></p>
+    </section>
+
+    <footer>
+      <a href="/">rugbyhubby.com</a> &middot; &copy; 2026 Bill McHugh
+    </footer>
+
+  </div>
+</body>
+</html>
