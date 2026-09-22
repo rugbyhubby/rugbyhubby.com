@@ -1,4 +1,4 @@
-# rugbyhubby.com
+i# rugbyhubby.com
 # rugbyhubby.com
 
 Personal landing page for [rugbyhubby.com](https://rugbyhubby.com) — a home for my writing, photography, and the tools I build along the way.
@@ -49,7 +49,7 @@ In `index.html`, find the donate button near the bottom and update the `href`:
 
 ```html
 <!-- UPDATE THIS LINK EACH YEAR WITH THE CURRENT DONATION URL -->
-<a class="donate-btn" href="YOUR_DONATION_LINK_HERE" target="_blank" rel="noopener">Donate →</a>
+<a class="donate-btn" href="https://walk.themmrf.org/participants/rugbyhubby2026" target="_blank" rel="noopener">Donate →</a>
 ```
 
 ## Future plans
